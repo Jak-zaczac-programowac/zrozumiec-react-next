@@ -1,12 +1,11 @@
 import { FullWidthButton } from "../FullWidthButton/FullWidthButton";
 import styles from "./Hero.module.css";
+import Image from "next/image";
 
 function Hero({ heroImage }) {
     return (
-        <div
-            className={styles.summerSaleCoverImage}
-            style={{ backgroundImage: `url(${heroImage}` }}
-        >
+        <div className={styles.summerSaleCoverImage}>
+            <Image height={500} width={1920} src={heroImage} />
             <div className={styles.heroContainer}>
                 <div className={styles.summerSalePrompt}>
                     <div>

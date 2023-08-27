@@ -12,6 +12,11 @@
     background-size: cover;
 }
 
+.summerSaleCoverImage img {
+    object-fit: cover;
+    object-position: top;
+}
+
 .summerSalePrompt {
     position: absolute;
     height: 50%;

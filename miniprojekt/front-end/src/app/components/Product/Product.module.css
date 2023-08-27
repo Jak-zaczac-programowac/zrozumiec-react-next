@@ -5,6 +5,7 @@
 
 .productCard img {
     height: 400px;
+    width: 250px;
 }
 
 .productCard button {
